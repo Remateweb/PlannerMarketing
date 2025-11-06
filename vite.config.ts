@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// ⚠️ o base DEVE bater exatamente com o nome do repositório
+// ✅ usa "/" porque o projeto está na raiz da branch publicada
 export default defineConfig({
   plugins: [react()],
-  base: "/PlannerMarketing/",
+  base: "/",
 });
